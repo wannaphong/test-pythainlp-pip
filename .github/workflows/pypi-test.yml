@@ -38,4 +38,4 @@ jobs:
         cd $path
         ls
         cd tests
-        python __init__.py
+        python -m unittest discover
