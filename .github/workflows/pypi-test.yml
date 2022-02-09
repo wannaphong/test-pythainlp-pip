@@ -1,10 +1,7 @@
 name: PyPI Unit test
 
 on:
-  push:
-    paths-ignore:
-      - '**.md'
-      - 'docs/**'
+  push
 
 jobs:
   build:
