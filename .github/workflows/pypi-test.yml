@@ -38,4 +38,7 @@ jobs:
         path=${file//.tar.gz/$second}
         cd $path
         ls
+        cd tests
+        mkdir tests
+        mv data tests/
         python -m unittest discover
